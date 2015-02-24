@@ -36,7 +36,7 @@ gem "activeadmin", github: "gregbell/active_admin" # Until it's 1.0.0
 gem "devise"
 
 gem "active_model_serializers"
-gem "grape"
+gem "grape", '~> 0.9.0'
 gem "grape-active_model_serializers"
 gem "grape-swagger-rails"
 gem "rack-cors", require: "rack/cors"
